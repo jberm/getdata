@@ -3,72 +3,72 @@ Variables
 
 * subject - A numeric id identifying the subject.  Range is 1-30.
 * activity - The activity performed by the subject while the measurements were taken.  One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-* tBodyAcc.mean.X - Mean acceleration.
-* tBodyAcc.mean.Y - Mean acceleration.
-* tBodyAcc.mean.Z - Mean acceleration.
-* tBodyAcc.std.X - Mean acceleration.
-* tBodyAcc.std.Y - Mean acceleration.
-* tBodyAcc.std.Z - Mean acceleration.
-* tGravityAcc.mean.X - Mean acceleration.
-* tGravityAcc.mean.Y - Mean acceleration.
-* tGravityAcc.mean.Z - Mean acceleration.
-* tGravityAcc.std.X - Mean acceleration.
-* tGravityAcc.std.Y - Mean acceleration.
-* tGravityAcc.std.Z - Mean acceleration.
-* tBodyAccJerk.mean.X - Mean acceleration.
-* tBodyAccJerk.mean.Y - Mean acceleration.
-* tBodyAccJerk.mean.Z - Mean acceleration.
-* tBodyAccJerk.std.X - Mean acceleration.
-* tBodyAccJerk.std.Y - Mean acceleration.
-* tBodyAccJerk.std.Z - Mean acceleration.
-* tBodyGyro.mean.X - Mean acceleration.
-* tBodyGyro.mean.Y - Mean acceleration.
-* tBodyGyro.mean.Z - Mean acceleration.
-* tBodyGyro.std.X - Mean acceleration.
-* tBodyGyro.std.Y - Mean acceleration.
-* tBodyGyro.std.Z - Mean acceleration.
-* tBodyGyroJerk.mean.X - Mean acceleration.
-* tBodyGyroJerk.mean.Y - Mean acceleration.
-* tBodyGyroJerk.mean.Z - Mean acceleration.
-* tBodyGyroJerk.std.X - Mean acceleration.
-* tBodyGyroJerk.std.Y - Mean acceleration.
-* tBodyGyroJerk.std.Z - Mean acceleration.
-* tBodyAccMag.mean - Mean acceleration.
-* tBodyAccMag.std - Mean acceleration.
-* tGravityAccMag.mean - Mean acceleration.
-* tGravityAccMag.std - Mean acceleration.
-* tBodyAccJerkMag.mean - Mean acceleration.
-* tBodyAccJerkMag.std - Mean acceleration.
-* tBodyGyroMag.mean - Mean acceleration.
-* tBodyGyroMag.std - Mean acceleration.
-* tBodyGyroJerkMag.mean - Mean acceleration.
-* tBodyGyroJerkMag.std - Mean acceleration.
-* fBodyAcc.mean.X - Mean acceleration.
-* fBodyAcc.mean.Y - Mean acceleration.
-* fBodyAcc.mean.Z - Mean acceleration.
-* fBodyAcc.std.X - Mean acceleration.
-* fBodyAcc.std.Y - Mean acceleration.
-* fBodyAcc.std.Z - Mean acceleration.
-* fBodyAccJerk.mean.X - Mean acceleration.
-* fBodyAccJerk.mean.Y - Mean acceleration.
-* fBodyAccJerk.mean.Z - Mean acceleration.
-* fBodyAccJerk.std.X - Mean acceleration.
-* fBodyAccJerk.std.Y - Mean acceleration.
-* fBodyAccJerk.std.Z - Mean acceleration.
-* fBodyGyro.mean.X - Mean acceleration.
-* fBodyGyro.mean.Y - Mean acceleration.
-* fBodyGyro.mean.Z - Mean acceleration.
-* fBodyGyro.std.X - Mean acceleration.
-* fBodyGyro.std.Y - Mean acceleration.
-* fBodyGyro.std.Z - Mean acceleration.
-* fBodyAccMag.mean - Mean acceleration.
-* fBodyAccMag.std - Mean acceleration.
-* fBodyBodyAccJerkMag.mean - Mean acceleration.
-* fBodyBodyAccJerkMag.std - Mean acceleration.
-* fBodyBodyGyroMag.mean - Mean acceleration.
-* fBodyBodyGyroMag.std - Mean acceleration.
-* fBodyBodyGyroJerkMag.mean - Mean acceleration.
-* fBodyBodyGyroJerkMag.std - Mean acceleration.
+* tBodyAcc.mean.X - Mean acceleration (m/s^2)
+* tBodyAcc.mean.Y - Mean acceleration (m/s^2)
+* tBodyAcc.mean.Z - Mean acceleration (m/s^2)
+* tBodyAcc.std.X - Mean acceleration (m/s^2)
+* tBodyAcc.std.Y - Mean acceleration (m/s^2)
+* tBodyAcc.std.Z - Mean acceleration (m/s^2)
+* tGravityAcc.mean.X - Mean acceleration (m/s^2)
+* tGravityAcc.mean.Y - Mean acceleration (m/s^2)
+* tGravityAcc.mean.Z - Mean acceleration (m/s^2)
+* tGravityAcc.std.X - Mean acceleration (m/s^2)
+* tGravityAcc.std.Y - Mean acceleration (m/s^2)
+* tGravityAcc.std.Z - Mean acceleration (m/s^2)
+* tBodyAccJerk.mean.X - Mean acceleration (m/s^2)
+* tBodyAccJerk.mean.Y - Mean acceleration (m/s^2)
+* tBodyAccJerk.mean.Z - Mean acceleration (m/s^2)
+* tBodyAccJerk.std.X - Mean acceleration (m/s^2)
+* tBodyAccJerk.std.Y - Mean acceleration (m/s^2)
+* tBodyAccJerk.std.Z - Mean acceleration (m/s^2)
+* tBodyGyro.mean.X - Mean acceleration (m/s^2)
+* tBodyGyro.mean.Y - Mean acceleration (m/s^2)
+* tBodyGyro.mean.Z - Mean acceleration (m/s^2)
+* tBodyGyro.std.X - Mean acceleration (m/s^2)
+* tBodyGyro.std.Y - Mean acceleration (m/s^2)
+* tBodyGyro.std.Z - Mean acceleration (m/s^2)
+* tBodyGyroJerk.mean.X - Mean acceleration (m/s^2)
+* tBodyGyroJerk.mean.Y - Mean acceleration (m/s^2)
+* tBodyGyroJerk.mean.Z - Mean acceleration (m/s^2)
+* tBodyGyroJerk.std.X - Mean acceleration (m/s^2)
+* tBodyGyroJerk.std.Y - Mean acceleration (m/s^2)
+* tBodyGyroJerk.std.Z - Mean acceleration (m/s^2)
+* tBodyAccMag.mean - Mean acceleration (m/s^2)
+* tBodyAccMag.std - Mean acceleration (m/s^2)
+* tGravityAccMag.mean - Mean acceleration (m/s^2)
+* tGravityAccMag.std - Mean acceleration (m/s^2)
+* tBodyAccJerkMag.mean - Mean acceleration (m/s^2)
+* tBodyAccJerkMag.std - Mean acceleration (m/s^2)
+* tBodyGyroMag.mean - Mean acceleration (m/s^2)
+* tBodyGyroMag.std - Mean acceleration (m/s^2)
+* tBodyGyroJerkMag.mean - Mean acceleration (m/s^2)
+* tBodyGyroJerkMag.std - Mean acceleration (m/s^2)
+* fBodyAcc.mean.X - Mean acceleration (m/s^2)
+* fBodyAcc.mean.Y - Mean acceleration (m/s^2)
+* fBodyAcc.mean.Z - Mean acceleration (m/s^2)
+* fBodyAcc.std.X - Mean acceleration (m/s^2)
+* fBodyAcc.std.Y - Mean acceleration (m/s^2)
+* fBodyAcc.std.Z - Mean acceleration (m/s^2)
+* fBodyAccJerk.mean.X - Mean acceleration (m/s^2)
+* fBodyAccJerk.mean.Y - Mean acceleration (m/s^2)
+* fBodyAccJerk.mean.Z - Mean acceleration (m/s^2)
+* fBodyAccJerk.std.X - Mean acceleration (m/s^2)
+* fBodyAccJerk.std.Y - Mean acceleration (m/s^2)
+* fBodyAccJerk.std.Z - Mean acceleration (m/s^2)
+* fBodyGyro.mean.X - Mean acceleration (m/s^2)
+* fBodyGyro.mean.Y - Mean acceleration (m/s^2)
+* fBodyGyro.mean.Z - Mean acceleration (m/s^2)
+* fBodyGyro.std.X - Mean acceleration (m/s^2)
+* fBodyGyro.std.Y - Mean acceleration (m/s^2)
+* fBodyGyro.std.Z - Mean acceleration (m/s^2)
+* fBodyAccMag.mean - Mean acceleration (m/s^2)
+* fBodyAccMag.std - Mean acceleration (m/s^2)
+* fBodyBodyAccJerkMag.mean - Mean acceleration (m/s^2)
+* fBodyBodyAccJerkMag.std - Mean acceleration (m/s^2)
+* fBodyBodyGyroMag.mean - Mean acceleration (m/s^2)
+* fBodyBodyGyroMag.std - Mean acceleration (m/s^2)
+* fBodyBodyGyroJerkMag.mean - Mean acceleration (m/s^2)
+* fBodyBodyGyroJerkMag.std - Mean acceleration (m/s^2)
 
 Transformations
 ---------------
