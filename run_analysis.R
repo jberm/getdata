@@ -1,4 +1,4 @@
-install.packages("dplyr")
+install.packages("dplyr", repos='http://cran.us.r-project.org')
 library(dplyr)
 
 #-----------------------------------------------------------------------------
@@ -118,10 +118,7 @@ readLabels <- function(file) {
 #'
 readSubjects <- function(file) {
     subjects <- read.table(file)
-    factor(
-        subjects$V1,
-        levels = 1:30
-    )
+    factor(subjects$V1, levels = 1:30)
 }
 
 #-----------------------------------------------------------------------------
